@@ -1,0 +1,129 @@
+/* Measures ------------------------------*/
+.mleft40 {
+   margin-left: 40px;
+}
+.mbottom15 {
+   margin-bottom: 15px;
+}
+.mright30 {
+   margin-right: 30px;
+}
+/*---------------- Color -----------------*/
+.gray{
+   color: #6c7381;
+}
+
+.selected {
+   border-color: #1e96d4!important;
+}
+
+.deslected {
+   border: 1px solid #eeeff2
+}
+/*---------------- Text ------------------*/
+.text-right {
+   text-align: right;
+}
+
+/*----------------------------------------*/
+.cnt-main {
+   padding-right: 110px;
+   padding-left: 110px;;
+}
+/*.container {
+  max-width: 542px;
+  margin: 0 auto;
+}*/
+/*------------- Header -------------------*/
+.header {
+   padding-top: 20px;
+   padding-bottom: 20px;
+   border-bottom: 1px solid #efeff1;
+   margin-bottom: 45px;
+}
+
+.header img {
+   height: 60px;
+   width: 60px;
+}
+
+/*-------------- Generales ----------------*/
+.flex {
+   display: -webkit-box;
+   display: -moz-box;
+   display: -webkit-flex;
+   display: flex;
+}
+
+.content-center {
+   -webkit-box-direction: normal;
+   -moz-box-direction: normal;
+   -ms-box-direction: normal;
+   -moz-box-orient: vertical;
+   -ms-box-orient: vertical;
+      -webkit-box-orient: vertical;
+         -webkit-box-pack: center;
+         -ms-box-pack: center;
+            -moz-box-pack: center;
+               -ms-flex-pack: center;
+                  -webkit-justify-content: center;
+                     justify-content: center;
+}
+
+.space-between {
+   -webkit-box-pack: justify;
+   -moz-box-pack: justify;
+   -ms-flex-pack: justify;
+   -ms-box-pack: justify;
+   -webkit-justify-content: space-between;
+   justify-content: space-between;
+}
+
+.text-flex-center {
+   align-items: center;
+   -ms-box-align:center;
+   -webkit-box-align: center;
+   -moz-box-align: center;
+   -ms-flex-align: center;
+   -webkit-align-items: center;
+}
+
+/*---------------------- Custom Tabs ---------------------*/
+.tabs {
+   margin-bottom: 40px;
+}
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-family: "Circular";
+  font-weight: 500;
+  font-size: 19.2px;
+  color: #6B7280;
+}
+
+.tab-list-active {
+   border-bottom: 2px solid #111111;
+   color: #111111;
+}
+
+.tab-content {
+   height: 144px;
+   font-family: "Circular";
+   font-weight: 400;
+   font-size: 16px;
+   color: #6B7280;
+   overflow: auto;
+}
+
+/*----------------------- media query -------------------*/
+@media screen and (max-width: 320px) {
+   /*---------------- Main container --------------------*/
+   .cnt-main {
+      padding-right: 10px;
+      padding-left: 10px;;
+   }
+}

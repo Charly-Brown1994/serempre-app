@@ -1,0 +1,137 @@
+/*-------------- Footer -------------------*/
+.footer {
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   height: 150px;
+   background-color: #f5f5f7;
+   border-top: 1px solid #efeff1;
+}
+
+.footer .cnt-shipping-warranty {
+   min-width: 105px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   margin-right: 70px;
+   margin-left: 110px;
+}
+
+.footer .cnt-price-button {
+   display: flex;
+   align-items: center;
+   margin-right: 30px;
+}
+
+.footer .shipping p,
+.footer .warranty p {
+   display: none;
+}
+
+.footer p {
+   font-family: "Circular";
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 20px;
+   color: #6B7280;
+}
+
+.footer .shipping {
+   margin-bottom: 20px;
+}
+
+.footer .warranty {
+   margin-left: 0px;
+}
+
+.footer .warranty h5,
+.footer .shipping h5 {
+   font-family: "Circular";
+   font-size: 14px;
+   font-weight: 500;
+   color: #111111;
+   line-height: 24px;;
+   margin-bottom: 10px;
+}
+
+.footer .cnt-price-button div .price {
+   font-family: "Circular";
+   font-size: 27.65px;
+   font-weight: 700;
+   line-height: 32px;
+   color: #111111;
+   text-align: right;
+}
+
+.button-blue {
+   font-family: "Circular";
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 24px;
+   color: #FFFFFF;
+   width: 113px;
+   height: 56px;
+   border-radius: 8px;
+   border: none;
+   background-color: #1e96d4;
+   cursor: pointer;
+   margin-left: 30px;
+}
+
+.button-blue:hover {
+   background-color: #66beeb;
+}
+
+.button-blue:focus {
+   border: 2px solid;
+   border-color: #d8dce0;
+}
+
+/*----------------------- media query -------------------*/
+@media screen and (min-width: 768px) {
+   /*----------------Footer -----------------------------*/
+   .footer .cnt-shipping-warranty {
+      min-width: 105px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-right: 0;
+      margin-left: 110px;
+   }
+
+   .footer .cnt-price-button {
+      margin-right: 110px;
+   }
+
+   .footer .shipping p,
+   .footer .warranty p {
+      display: block;
+   }
+
+   .footer .warranty {
+      margin-left: 20px;
+   }
+
+   .footer .shipping {
+      margin-bottom: 0;
+   }
+}
+
+@media screen and (max-width: 320px) {
+   /*----------------Footer -----------------------------*/
+   .footer .cnt-shipping-warranty {
+      display: none;
+   }
+
+   .footer .cnt-price-button {
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 110px;
+      margin-right: 30px;
+   }
+
+   .footer .cnt-price-button div {
+      margin-bottom: 20px;
+   }
+}

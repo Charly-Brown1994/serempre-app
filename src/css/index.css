@@ -1,0 +1,48 @@
+/* Fonts --------------------------------------------- */
+@font-face {
+  font-family: "Circular Std-Bold";
+  src: url("../assets/fonts/Circular-Std-Bold.otf") format('otf');
+  font-weight: 300;
+  font-style: "normal";
+}
+
+@font-face {
+  font-family: "Circular Std-Book";
+  src: url("../assets/fonts/Circular-Std-Book.otf") format('otf');
+  font-weight: 300;
+  font-style: "normal";
+}
+
+@font-face {
+  font-family: "Circular Std-Medium";
+  src: url("../assets/fonts/Circular-Std-Medium.otf") format('otf');
+  font-weight: 300;
+  font-style: "normal";
+}
+
+/* Global Styles ------------------------------------- */
+html, body {
+   height: 100%;
+   width: 100%;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Circular Std-Bold', 'Circular Std-Book', 'Circular Std-Medium',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FFF;
+
+}
+body, ul, p, input, figure, table tr td, table tr th {
+   margin: 0;
+   padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+   margin: 0;
+}
+
+ul {
+  list-style: none;
+}

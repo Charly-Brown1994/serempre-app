@@ -1,0 +1,240 @@
+/*---------------- Images ----------------------------------------------------*/
+img {
+   max-width: 100%;
+   max-height: 100%;
+}
+
+.cnt-images .cnt-main-image {
+   height: 335px;
+   border-radius: 8px;
+   border: 1px solid #eeeff2;
+   text-align: center;
+   margin-bottom: 15px;
+   cursor: pointer;
+}
+
+.cnt-feature .cnt-items-icons li,
+.cnt-warranty .cnt-items-icons li,
+.cnt-images ul.cnt-items-controls,
+.cnt-images ul.cnt-items-icons {
+   display: flex;
+   justify-content: space-between;
+}
+
+.cnt-images .cnt-items-icons li {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 96px;
+   flex: 0 1 calc(33% - 15px);
+   text-align: center;
+   border-radius: 8px;
+   border: 2px solid #eeeff2;
+   cursor: pointer;
+}
+
+.cnt-feature .cnt-items-icons li:hover,
+.cnt-warranty .cnt-items-icons li:hover,
+.cnt-choose .cnt-items-icons li:hover,
+.cnt-images .cnt-items-icons li:hover {
+   border-color: #b6bcc6;
+}
+
+.cnt-images .cnt-items-controls {
+   margin-top: 75px;
+   margin-bottom: 75px;
+}
+
+.cnt-images .cnt-items-controls li {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   height: 64px;
+   flex: 0 1 calc(33% - 15px);
+   text-align: center;
+   cursor: pointer;
+}
+
+.cnt-images .cnt-items-controls li img {
+   width: 22px;
+   height: 27px;
+}
+
+.cnt-warranty .cnt-items-icons li span,
+.cnt-choose .cnt-items-icons li span,
+.cnt-images .cnt-items-controls li p {
+   font-family: "Circular";
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   color: #111111;
+}
+/*--------------------- Container description ---------*/
+.price-title,
+.main-titles {
+   margin-bottom: 50px;;
+}
+
+.cnt-description .title1 {
+   font-family: "Circular";
+   font-weight: 400;
+   font-size: 13.33px;
+   color: #CB253C;
+   margin-bottom: 20px;
+}
+
+.cnt-description .title2 {
+   font-family: "Circular";
+   font-weight: 700;
+   font-size: 39.81px;
+   color: #111111;
+}
+
+.cnt-description .title3 {
+   font-family: "Circular";
+   font-weight: 400;
+   font-size: 27.65px;
+   color: #6B7280;
+}
+
+.cnt-description .price-title .title {
+   font-family: "Circular";
+   font-weight: 400;
+   font-size: 13px;
+   color: #6B7280;
+   margin-bottom: 20px;;
+}
+
+.cnt-description .price-title .price {
+   font-family: "Circular";
+   font-weight: 700;
+   font-size: 40px;
+   color: #111111;
+}
+/*--------------------- Choose ------------------------*/
+.cnt-choose .cnt-items-icons {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin-bottom: 75px;
+}
+
+.cnt-choose .cnt-items-icons li {
+   border-radius: 8px;
+   border: 2px solid #eeeff2;
+   cursor: pointer;
+   width: 185px;
+   height: 84px;
+   padding: 24px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+}
+
+.cnt-specification .title-specification,
+.cnt-feature .title-feature,
+.cnt-warranty .title-warranty,
+.cnt-choose .finish {
+   font-family: "Circular";
+   font-weight: 500;
+   font-size: 19.2px;
+   line-height: 24px;
+   color: #111111;
+   margin-bottom: 15px;
+}
+
+.cnt-feature .cnt-items-icons li span,
+.cnt-warranty .cnt-items-icons li span,
+.cnt-choose .cnt-items-icons li span {
+   color: #6B7280;
+}
+
+.cnt-feature .cnt-items-icons li p,
+.cnt-warranty .cnt-items-icons li p,
+.cnt-choose .cnt-items-icons li p {
+   font-family: "Circular";
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 20px;
+   color: #111111;
+}
+/*--------------------- Warranty cover ----------------*/
+.cnt-specification .cnt-items-icons,
+.cnt-feature .cnt-items-icons,
+.cnt-warranty .cnt-items-icons {
+   margin-bottom: 75px;
+}
+
+.cnt-feature .cnt-items-icons li,
+.cnt-warranty .cnt-items-icons li {
+   max-height: 44px;
+   padding: 24px;
+   border-radius: 8px;
+   border: 2px solid #eeeff2;
+   cursor: pointer;
+   margin-bottom: 15px;
+}
+
+.cnt-feature .cnt-items-icons li .price,
+.cnt-warranty .cnt-items-icons li .price {
+   align-self:  center;
+   width: 65px;
+}
+
+/*--------------------- Specifications ---------------*/
+.cnt-specification .cnt-items-icons li {
+   border-top: 1px solid #eeeff2;
+   padding-bottom: 19px;
+   padding-top: 19px;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+}
+
+.cnt-specification .cnt-items-icons li:last-child {
+   border-bottom: 1px solid #eeeff2;
+}
+
+/*--------------------- Media query -------------------*/
+@media screen and (max-width: 320px) {
+   .cnt-images ul.cnt-items-controls {
+      flex-direction: column;
+   }
+
+   .cnt-images .cnt-items-controls li {
+      margin-bottom:  45px;;
+   }
+
+   .cnt-images .cnt-items-controls li img {
+      margin-bottom: 15px;
+   }
+}
+
+
+@media screen and (min-width: 768px) {
+   /*---------------- Main container --------------------*/
+
+   /*---------------- Body container --------------------*/
+   .body {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+   }
+
+   .body .cnt-body,
+   .body .cnt-images {
+      flex: 0 1 calc(50% - 15px);
+   }
+
+   .cnt-images .cnt-items-controls {
+      margin-bottom: 0px;
+   }
+
+   .cnt-specification .cnt-items-icons li {
+      flex-direction: row;
+   }
+
+   .cnt-choose .cnt-items-icons li {
+      width: 236px;
+   }
+}
