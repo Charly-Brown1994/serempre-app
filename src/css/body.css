@@ -221,7 +221,7 @@ img {
 }
 
 
-@media screen and (min-device-width: 768px) {
+@media screen and (min-width: 815px) {
    /*---------------- Main container --------------------*/
 
    /*---------------- Body container --------------------*/
