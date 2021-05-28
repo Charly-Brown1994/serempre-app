@@ -118,7 +118,7 @@
    }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-device-width : 280px) and (max-device-width : 480px) {
    /*----------------Footer -----------------------------*/
    .footer .cnt-shipping-warranty {
       display: none;

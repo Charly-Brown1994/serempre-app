@@ -11,6 +11,11 @@ img {
    text-align: center;
    margin-bottom: 15px;
    cursor: pointer;
+   line-height: 335px;
+}
+
+.cnt-images .cnt-main-image img {
+   vertical-align: middle;
 }
 
 .cnt-feature .cnt-items-icons li,
@@ -173,6 +178,7 @@ img {
    border: 2px solid #eeeff2;
    cursor: pointer;
    margin-bottom: 15px;
+   overflow: auto
 }
 
 .cnt-feature .cnt-items-icons li .price,
@@ -196,7 +202,7 @@ img {
 }
 
 /*--------------------- Media query -------------------*/
-@media screen and (max-width: 320px) {
+@media screen and (min-device-width: 320px) and (max-device-width : 480px) {
    .cnt-images ul.cnt-items-controls {
       flex-direction: column;
    }
@@ -208,10 +214,14 @@ img {
    .cnt-images .cnt-items-controls li img {
       margin-bottom: 15px;
    }
+
+   .cnt-choose .cnt-items-icons li {
+      overflow: auto;
+   }
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-device-width: 768px) {
    /*---------------- Main container --------------------*/
 
    /*---------------- Body container --------------------*/
