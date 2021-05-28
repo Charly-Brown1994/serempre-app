@@ -120,6 +120,9 @@
 
 @media screen and (min-device-width : 280px) and (max-device-width : 480px) {
    /*----------------Footer -----------------------------*/
+   .footer {
+      justify-content: center;
+   }
    .footer .cnt-shipping-warranty {
       display: none;
    }
@@ -127,8 +130,6 @@
    .footer .cnt-price-button {
       flex-direction: column;
       justify-content: center;
-      margin-left: 110px;
-      margin-right: 30px;
    }
 
    .footer .cnt-price-button div {

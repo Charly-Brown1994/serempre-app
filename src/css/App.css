@@ -120,7 +120,7 @@
 }
 
 /*----------------------- media query -------------------*/
-@media screen and (max-width: 320px) {
+@media screen and (min-device-width: 320px) and (max-device-width : 480px) {
    /*---------------- Main container --------------------*/
    .cnt-main {
       padding-right: 10px;
